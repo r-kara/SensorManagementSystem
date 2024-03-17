@@ -1,0 +1,196 @@
+<mxfile host="app.diagrams.net" modified="2023-11-19T14:25:19.300Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="MBDdk967Ew4wEZXj9yOi" version="22.1.3" type="device">
+  <diagram name="Page-1" id="cvkqyBP95A0krMY0RARE">
+    <mxGraphModel dx="1576" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Tf-BHYjHI9F7qIFl5iAr-55" value="Object" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1960" y="70" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf-BHYjHI9F7qIFl5iAr-52" value="Object" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="70" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf-BHYjHI9F7qIFl5iAr-42" value="Object" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="70" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf-BHYjHI9F7qIFl5iAr-32" value="Object" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="644" y="70" width="106" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf-BHYjHI9F7qIFl5iAr-1" value="&lt;u style=&quot;font-size: 13px;&quot;&gt;&lt;b style=&quot;font-size: 13px;&quot;&gt;342 Project: Iteration 1 (deploySensor(..) Sequence Diagram)&lt;/b&gt;&lt;/u&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="40" y="10" width="450" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf-BHYjHI9F7qIFl5iAr-2" value="&lt;u&gt;:Console&lt;/u&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="240" y="80" width="100" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf-BHYjHI9F7qIFl5iAr-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Tf-BHYjHI9F7qIFl5iAr-2">
+          <mxGeometry x="45" y="70" width="10" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf-BHYjHI9F7qIFl5iAr-4" value="deploySensor(sensorID,locName,temperature)" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="Tf-BHYjHI9F7qIFl5iAr-2" target="Tf-BHYjHI9F7qIFl5iAr-3">
+          <mxGeometry x="-0.0345" relative="1" as="geometry">
+            <mxPoint x="-220" y="70" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="-100" y="70" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tf-BHYjHI9F7qIFl5iAr-5" value="&lt;u&gt;:SensorRegistry&lt;/u&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="380" y="80" width="120" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf-BHYjHI9F7qIFl5iAr-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Tf-BHYjHI9F7qIFl5iAr-5">
+          <mxGeometry x="55" y="70" width="10" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf-BHYjHI9F7qIFl5iAr-7" value="&lt;u&gt;:LocationRegistry&lt;/u&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="770" y="80" width="120" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf-BHYjHI9F7qIFl5iAr-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Tf-BHYjHI9F7qIFl5iAr-7">
+          <mxGeometry x="55" y="180" width="10" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf-BHYjHI9F7qIFl5iAr-9" value="&lt;u style=&quot;border-color: var(--border-color);&quot;&gt;:SensorLocationPairTable&lt;/u&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1160" y="80" width="160" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf-BHYjHI9F7qIFl5iAr-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Tf-BHYjHI9F7qIFl5iAr-9">
+          <mxGeometry x="75" y="280" width="10" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf-BHYjHI9F7qIFl5iAr-11" value="addSensorLocationPair(s,loc)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="Tf-BHYjHI9F7qIFl5iAr-10">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="295" y="389.65999999999997" as="sourcePoint" />
+            <mxPoint x="1015" y="389.65999999999997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tf-BHYjHI9F7qIFl5iAr-19" value="getSensor(sensorID)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="295" y="170" as="sourcePoint" />
+            <mxPoint x="435" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tf-BHYjHI9F7qIFl5iAr-20" value="s" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="435" y="230" as="sourcePoint" />
+            <mxPoint x="295" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tf-BHYjHI9F7qIFl5iAr-21" value="getLocation(locName)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="Tf-BHYjHI9F7qIFl5iAr-8">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="294.9999999999998" y="270" as="sourcePoint" />
+            <mxPoint x="820" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tf-BHYjHI9F7qIFl5iAr-22" value="loc" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="Tf-BHYjHI9F7qIFl5iAr-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="810" y="340" as="sourcePoint" />
+            <mxPoint x="295" y="339.71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tf-BHYjHI9F7qIFl5iAr-24" value="sl:&lt;u style=&quot;border-color: var(--border-color);&quot;&gt;SensorLocationPair&lt;/u&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1350" y="380" width="130" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf-BHYjHI9F7qIFl5iAr-48" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Tf-BHYjHI9F7qIFl5iAr-24">
+          <mxGeometry x="60" y="50" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf-BHYjHI9F7qIFl5iAr-25" value="st:&lt;u style=&quot;border-color: var(--border-color);&quot;&gt;SensorTemperaturePair&lt;/u&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1830" y="480" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf-BHYjHI9F7qIFl5iAr-57" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Tf-BHYjHI9F7qIFl5iAr-25">
+          <mxGeometry x="70" y="50" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf-BHYjHI9F7qIFl5iAr-30" value="&lt;u&gt;:Sensors&lt;/u&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="638" y="80" width="100" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf-BHYjHI9F7qIFl5iAr-31" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Tf-BHYjHI9F7qIFl5iAr-30">
+          <mxGeometry x="45" y="120" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf-BHYjHI9F7qIFl5iAr-33" value="&lt;u&gt;s:Sensor&lt;/u&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="558" y="160" width="80" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf-BHYjHI9F7qIFl5iAr-34" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Tf-BHYjHI9F7qIFl5iAr-33">
+          <mxGeometry x="35" y="50" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf-BHYjHI9F7qIFl5iAr-35" value="[sensor not found]&lt;br&gt;s:=create(sensorID,&lt;br&gt;false)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="445" y="180" as="sourcePoint" />
+            <mxPoint x="558" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tf-BHYjHI9F7qIFl5iAr-36" value="add(s)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="603" y="220" as="sourcePoint" />
+            <mxPoint x="685" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tf-BHYjHI9F7qIFl5iAr-37" value="&lt;u&gt;loc:Location&lt;/u&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="950" y="270" width="80" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf-BHYjHI9F7qIFl5iAr-38" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Tf-BHYjHI9F7qIFl5iAr-37">
+          <mxGeometry x="35" y="50" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf-BHYjHI9F7qIFl5iAr-39" value="[locartion not found]&lt;br&gt;loc:=create&lt;br&gt;(locationID,name)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="Tf-BHYjHI9F7qIFl5iAr-8">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="855" y="289.84" as="sourcePoint" />
+            <mxPoint x="950" y="289.84" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tf-BHYjHI9F7qIFl5iAr-40" value="&lt;u&gt;:Locations&lt;br&gt;&lt;/u&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1028" y="80" width="102" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf-BHYjHI9F7qIFl5iAr-41" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Tf-BHYjHI9F7qIFl5iAr-40">
+          <mxGeometry x="46" y="225" width="10" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf-BHYjHI9F7qIFl5iAr-43" value="add(loc)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="Tf-BHYjHI9F7qIFl5iAr-38" target="Tf-BHYjHI9F7qIFl5iAr-41">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1010" y="330" as="sourcePoint" />
+            <mxPoint x="1072" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tf-BHYjHI9F7qIFl5iAr-44" value="addSensorTemperaturePair(s,temperature)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="Tf-BHYjHI9F7qIFl5iAr-46">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="295" y="479.51999999999987" as="sourcePoint" />
+            <mxPoint x="1725" y="479.52" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tf-BHYjHI9F7qIFl5iAr-45" value="&lt;u style=&quot;border-color: var(--border-color);&quot;&gt;:SensorTemperaturePairTable&lt;/u&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1630" y="80" width="180" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf-BHYjHI9F7qIFl5iAr-46" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Tf-BHYjHI9F7qIFl5iAr-45">
+          <mxGeometry x="85" y="380" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf-BHYjHI9F7qIFl5iAr-47" value="sl:=create(s,loc)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="Tf-BHYjHI9F7qIFl5iAr-10">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1255" y="400.15999999999997" as="sourcePoint" />
+            <mxPoint x="1350" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tf-BHYjHI9F7qIFl5iAr-49" value=":&lt;u style=&quot;border-color: var(--border-color);&quot;&gt;SensorLocationPairs&lt;/u&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1470" y="80" width="130" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf-BHYjHI9F7qIFl5iAr-50" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Tf-BHYjHI9F7qIFl5iAr-49">
+          <mxGeometry x="60" y="340" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf-BHYjHI9F7qIFl5iAr-51" value="add(sl)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1420" y="440" as="sourcePoint" />
+            <mxPoint x="1530" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tf-BHYjHI9F7qIFl5iAr-53" value=":&lt;u style=&quot;border-color: var(--border-color);&quot;&gt;SensorTemperaturePairs&lt;/u&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1950" y="80" width="150" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf-BHYjHI9F7qIFl5iAr-54" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Tf-BHYjHI9F7qIFl5iAr-53">
+          <mxGeometry x="70" y="440" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf-BHYjHI9F7qIFl5iAr-56" value="st:=create(s,&lt;br&gt;temperature)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1725" y="489.77" as="sourcePoint" />
+            <mxPoint x="1830" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tf-BHYjHI9F7qIFl5iAr-58" value="add(st)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1910" y="539.77" as="sourcePoint" />
+            <mxPoint x="2020" y="539.77" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

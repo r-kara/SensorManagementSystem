@@ -1,0 +1,140 @@
+<mxfile host="app.diagrams.net" modified="2023-11-20T01:06:46.248Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="SBbadEVtXv0_3EvEtFpL" version="22.1.3" type="device">
+  <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
+    <mxGraphModel dx="1296" dy="694" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sm-IwjFy2GP3Cl_WrNWZ-33" value="Object" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="1030" y="70" width="125" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sm-IwjFy2GP3Cl_WrNWZ-30" value="Object" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="670" y="70" width="125" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sm-IwjFy2GP3Cl_WrNWZ-1" value="&lt;u style=&quot;font-size: 13px;&quot;&gt;&lt;b style=&quot;font-size: 13px;&quot;&gt;342 Project: Iteration 1 (readTemperature(..) Sequence Diagram)&lt;/b&gt;&lt;/u&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="40" y="10" width="450" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sm-IwjFy2GP3Cl_WrNWZ-2" value="&lt;u&gt;:Console&lt;/u&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="180" y="80" width="100" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="sm-IwjFy2GP3Cl_WrNWZ-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="sm-IwjFy2GP3Cl_WrNWZ-2" vertex="1">
+          <mxGeometry x="45" y="70" width="10" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="sm-IwjFy2GP3Cl_WrNWZ-4" value="readTemperature(locName)" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="sm-IwjFy2GP3Cl_WrNWZ-2" target="sm-IwjFy2GP3Cl_WrNWZ-3" edge="1">
+          <mxGeometry x="-0.0345" relative="1" as="geometry">
+            <mxPoint x="-140" y="70" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="-100" y="70" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sm-IwjFy2GP3Cl_WrNWZ-7" value="&lt;u&gt;:LocationRegistry&lt;/u&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="340" y="80" width="120" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="sm-IwjFy2GP3Cl_WrNWZ-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="sm-IwjFy2GP3Cl_WrNWZ-7" vertex="1">
+          <mxGeometry x="55" y="70" width="10" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="sm-IwjFy2GP3Cl_WrNWZ-10" value="&lt;u style=&quot;border-color: var(--border-color);&quot;&gt;:SensorLocationPairTable&lt;/u&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="480" y="80" width="160" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="sm-IwjFy2GP3Cl_WrNWZ-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="sm-IwjFy2GP3Cl_WrNWZ-10" vertex="1">
+          <mxGeometry x="75" y="230" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="sm-IwjFy2GP3Cl_WrNWZ-14" value="&lt;u style=&quot;border-color: var(--border-color);&quot;&gt;:SensorTemperaturePairTable&lt;/u&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="820" y="80" width="180" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="sm-IwjFy2GP3Cl_WrNWZ-15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="sm-IwjFy2GP3Cl_WrNWZ-14" vertex="1">
+          <mxGeometry x="85" y="310" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="sm-IwjFy2GP3Cl_WrNWZ-16" value="getLocation(locName)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="235" y="189.9999999999999" as="sourcePoint" />
+            <mxPoint x="395" y="189.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sm-IwjFy2GP3Cl_WrNWZ-17" value="getSensor(location)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" target="sm-IwjFy2GP3Cl_WrNWZ-11" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="235" y="329.9999999999999" as="sourcePoint" />
+            <mxPoint x="540" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sm-IwjFy2GP3Cl_WrNWZ-18" value="sensor" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" source="sm-IwjFy2GP3Cl_WrNWZ-11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="360" as="sourcePoint" />
+            <mxPoint x="235" y="359.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sm-IwjFy2GP3Cl_WrNWZ-20" value="getTemperature(sensor)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" target="sm-IwjFy2GP3Cl_WrNWZ-15" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="235" y="410.0000000000001" as="sourcePoint" />
+            <mxPoint x="825" y="410.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sm-IwjFy2GP3Cl_WrNWZ-21" value="td (temperature value)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="905" y="450.0000000000001" as="sourcePoint" />
+            <mxPoint x="235" y="450.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sm-IwjFy2GP3Cl_WrNWZ-22" value="&lt;u&gt;st:STPairs&lt;/u&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="1020" y="80" width="120" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="sm-IwjFy2GP3Cl_WrNWZ-23" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="sm-IwjFy2GP3Cl_WrNWZ-22" vertex="1">
+          <mxGeometry x="55" y="320" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sm-IwjFy2GP3Cl_WrNWZ-24" value="temp:=find(sensor)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" target="sm-IwjFy2GP3Cl_WrNWZ-23" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="915" y="420" as="sourcePoint" />
+            <mxPoint x="1070" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sm-IwjFy2GP3Cl_WrNWZ-26" value="[location found] location" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" target="sm-IwjFy2GP3Cl_WrNWZ-3" edge="1">
+          <mxGeometry x="0.2703" relative="1" as="geometry">
+            <mxPoint x="395" y="200" as="sourcePoint" />
+            <mxPoint x="230" y="234.9999999999999" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="395" y="200" />
+              <mxPoint x="360" y="240" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sm-IwjFy2GP3Cl_WrNWZ-27" value="[location not found] null" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" target="sm-IwjFy2GP3Cl_WrNWZ-3" edge="1">
+          <mxGeometry x="0.3877" relative="1" as="geometry">
+            <mxPoint x="395" y="200" as="sourcePoint" />
+            <mxPoint x="230" y="235" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="395" y="200" />
+              <mxPoint x="360" y="280" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sm-IwjFy2GP3Cl_WrNWZ-28" value="&lt;u&gt;sl:SLPairs&lt;/u&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="660" y="80" width="120" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="sm-IwjFy2GP3Cl_WrNWZ-29" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="sm-IwjFy2GP3Cl_WrNWZ-28" vertex="1">
+          <mxGeometry x="55" y="240" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sm-IwjFy2GP3Cl_WrNWZ-31" value="sensor:=find(location)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="565" y="340" as="sourcePoint" />
+            <mxPoint x="715" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sm-IwjFy2GP3Cl_WrNWZ-34" value="&lt;u&gt;temp:Temperature&lt;/u&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="1180" y="80" width="120" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="sm-IwjFy2GP3Cl_WrNWZ-35" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="sm-IwjFy2GP3Cl_WrNWZ-34" vertex="1">
+          <mxGeometry x="55" y="325" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sm-IwjFy2GP3Cl_WrNWZ-36" value="td:=getTemperature()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1085" y="430" as="sourcePoint" />
+            <mxPoint x="1235" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
