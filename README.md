@@ -1,3 +1,5 @@
+Fall 2023
+
 ## Team members
 
 | Name                                      |  Student ID  |      Email Infromation     | Section | 
